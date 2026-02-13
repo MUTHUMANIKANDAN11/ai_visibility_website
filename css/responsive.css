@@ -1,8 +1,3 @@
-/* Responsive Design Styles */
-
-/* ---------------------------------------------------------
-   Large Screens / Desktop / Tablet Landscape (Max Width: 1350px)
---------------------------------------------------------- */
 @media screen and (max-width: 1350px) {
     /*--------------------------------------------header*/
 
@@ -106,7 +101,6 @@
         min-width: 280px;
         max-width: 450px;
         box-sizing: border-box;
-        /* IMPORTANT: Prevent padding from overflowing width */
     }
 
     /*--------------------------------------------hero4*/
@@ -184,7 +178,7 @@
     }
 }
 
-/*--------------------------------------------mobile*/
+/*---------------------------------------------------------------------------------------mobile*/
 
 @media screen and (max-width: 768px) {
 
@@ -194,10 +188,24 @@
         width: 100%;
         justify-content: center;
         margin-top: 10px;
+        gap: 10px;
+    }
+
+    .hero-text-box-head {
+        width: 80%;
+    }
+
+    .gpt-img {
+        height: 40px;
     }
 
     .logo {
         margin-right: 0;
+    }
+
+    .bottom-icons {
+        width: 60%;
+        height: 50px;
     }
 
     /*--------------------------------------------cards*/
@@ -248,7 +256,6 @@
     /*-------------------------------------------------hero3*/
     .hero3-table {
         flex-direction: column;
-        /* Ensure no margin issues */
         width: 100%;
         padding-inline: 0;
         margin-inline: 0;
@@ -258,9 +265,15 @@
         width: 100%;
         max-width: none;
         padding: 20px;
-        /* Reduce padding for mobile space */
         box-sizing: border-box;
-        /* Ensuring box-sizing here as well */
+    }
+
+    .table-column-head {
+        margin-bottom: 10px;
+    }
+
+    .table-column-content {
+        margin-bottom: 10px;
     }
 
     /*-------------------------------------------------hero5 */
