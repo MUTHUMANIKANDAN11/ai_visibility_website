@@ -14,6 +14,7 @@
 .hero3-link {
     color: rgb(255, 101, 126);
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .hero3-head {
@@ -35,6 +36,7 @@
     background-color: rgb(38, 209, 138);
     color: white;
     margin-block: 50px;
+    cursor: pointer;
 }
 
 .hero3-table {
@@ -162,7 +164,7 @@
 
 /*---------------------------------------------------*/
 
-.table-column2-box{
+.table-column2-box {
     padding: 20px;
 }
 
@@ -170,9 +172,9 @@
     font-size: 18px;
 }
 
-.highlight{
-  background: rgb(252, 226, 179);
-  padding: 2px 6px;
+.highlight {
+    background: rgb(252, 226, 179);
+    padding: 2px 6px;
 }
 
 .column-content {
@@ -181,7 +183,7 @@
     margin-block: 20px;
 }
 
-.stat-bar{
+.stat-bar {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -192,7 +194,7 @@
     margin-block: 20px;
 }
 
-.stat-bar-ans1{
+.stat-bar-ans1 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -204,7 +206,7 @@
     z-index: 1000;
 }
 
-.stat-bar-ans2{
+.stat-bar-ans2 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -215,7 +217,7 @@
     background-color: rgb(24, 38, 240);
 }
 
-.percentage-box{
+.percentage-box {
     display: flex;
     justify-content: space-between;
 
@@ -223,41 +225,41 @@
     padding-bottom: 25px;
 }
 
-.percentage-box2{
+.percentage-box2 {
     margin-right: 45px;
 }
 
-.percentage{
+.percentage {
     font-size: 20px;
 }
 
-.percentage-text{
+.percentage-text {
     font-size: 12px;
     color: rgb(170, 170, 170);
     margin-top: 10px;
 }
 
-.column-footer{
+.column-footer {
     margin-block: 20px;
 }
 
-.footer-text{
+.footer-text {
     color: gray;
 }
 
 /*------------------------------------------*/
 
-.optimize-list{
+.optimize-list {
     margin-top: 30px;
 }
 
-.optimize-list-item{
+.optimize-list-item {
     display: flex;
     gap: 15px;
     margin-bottom: 25px;
 }
 
-.column-btn{
+.column-btn {
     height: 35px;
     width: 35px;
     border: none;
@@ -265,18 +267,18 @@
     color: gray;
 }
 
-.text-box{
+.text-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 5px;
 }
 
-.date{
+.date {
     font-size: 12px;
     color: gray;
 }
 
-.text{
+.text {
     font-size: 15px;
 }
