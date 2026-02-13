@@ -1,0 +1,80 @@
+.hero5 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero5-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.hero5-head {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.hero5-content {
+    font-size: 20px;
+    color: gray;
+}
+
+.hero5-grid {
+    width: 1300px;
+    display: grid;
+    border-radius: 20px;
+    border: 1px solid #e5e7eb;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    background:
+        linear-gradient(#e5e7eb 0 0) center / 100% 1px no-repeat,
+        linear-gradient(90deg, #e5e7eb 0 0) center / 1px 100% no-repeat,
+        rgba(251, 251, 251, 0.986);
+}
+
+.hero5-column {
+    padding: 30px;
+}
+
+.column-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile{
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.type{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.column-content{
+    width: 60%;
+}
+
+.content-head{
+    font-size: 18px;
+    color: black;
+    width: 70%;
+    margin-bottom: 20px;
+}

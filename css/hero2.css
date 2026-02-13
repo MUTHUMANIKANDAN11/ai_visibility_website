@@ -1,0 +1,41 @@
+.hero2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero2-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero2-link {
+    color: rgb(255, 101, 126);
+}
+
+.hero2-head {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-block: 10px;
+}
+
+.hero2-content {
+    font-size: 20px;
+    color: gray;
+}
+
+.hero2-btn {
+    align-self: self-start;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(38, 209, 138);
+    color: white;
+    margin-block: 20px;
+}
+
+.hero2-img {
+    margin-top: 10px;
+    width: 1300px;
+    border-radius: 20px;
+}

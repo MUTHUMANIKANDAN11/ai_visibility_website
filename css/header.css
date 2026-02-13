@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    font-size: 15px;
+    color: gray;
+    justify-content: center;
+}
+
+.header-box {
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding-inline: 12px;
+    margin-block: 15px;
+    max-width: 800px;
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    height: 35px;
+    width: 35px;
+    border-radius: 20%;
+    margin-right: 40px;
+}
+
+.sign-user {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.demo-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+
+
+.footer {
+    height: 80px;
+}

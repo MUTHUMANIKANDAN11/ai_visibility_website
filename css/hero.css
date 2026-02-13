@@ -1,0 +1,186 @@
+.hero {
+    position: relative;
+    height: 880px;
+
+    background: linear-gradient(to bottom,
+            #cfe0ef 0%,
+            #e8f1f8 40%,
+            #ffffff 100%);
+
+    margin-inline: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: radial-gradient(circle,
+            rgba(0, 0, 0, 0.15) 1px,
+            transparent 1px);
+    background-size: 8px 8px;
+
+    mask-image: linear-gradient(to top,
+            black 40%,
+            transparent 100%);
+    z-index: 500;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 700px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.hero-text-box-head {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero-text-box-content {
+    width: 500px;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+
+.hero-text-box-btn-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-btn1 {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero-btn2 {
+    background-color: rgb(4, 157, 93);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.gpt-img {
+    height: 50px;
+}
+
+.card {
+    font-size: 18px;
+    position: absolute;
+    width: 270px;
+    padding: 15px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.card-head {
+    color: black;
+}
+
+.card-content {
+    color: gray;
+}
+
+.card-responce-box {
+    display: flex;
+    align-items: center;
+}
+
+.card-responce-count {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.card-responce-up-signal {
+    color: rgb(4, 157, 93);
+    background-color: rgb(192, 255, 228);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.card-responce-down-signal {
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 192, 192);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.card1 {
+    top: 100px;
+    left: -30px;
+    transform: rotate(6deg);
+}
+
+.card2 {
+    bottom: 300px;
+    left: 250px;
+    transform: rotate(-6deg);
+}
+
+.card3 {
+    bottom: 120px;
+    left: 33%;
+}
+
+.card4 {
+    bottom: 120px;
+    right: 33%;
+}
+
+.card5 {
+    bottom: 300px;
+    right: 250px;
+    transform: rotate(6deg);
+}
+
+.card6 {
+    top: 100px;
+    right: -30px;
+    transform: rotate(-6deg);
+}
+
+.bottom-icons {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    z-index: 1000;
+}
+
+.bottom-icon1 {
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    transform: rotate(10deg);
+}
+
+.bottom-icon2 {
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    transform: rotate(-10deg);
+}
